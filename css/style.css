@@ -1,0 +1,101 @@
+:root{
+    --first-color: #fff;
+    --second-color: #000;
+    --third-color: #0E8D9E;
+    --fourth-color: #39C3E0;
+}
+
+body{
+    background-color: #E6E6E6;
+}
+
+.box{
+    display: flex;
+}
+
+*{margin: 0px;}
+
+.a{
+    background-color: var(--third-color);
+    color: var(--first-color);
+    width: 100vw;
+    height: 8vh;
+    font-family: 'Consolas';
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.b{
+    color: var(--first-color);
+    font-size: 3vh;
+    display: flex;
+    margin-left: 0.6vh;
+    align-content: center;
+    list-style: none;
+    
+}
+.card{
+    align-content: center;
+    background-color: #fff; 
+    width: 50%;
+    padding: 2vh;
+    border-style: solid;
+    border-color: #63cbe8;
+    border-width: 2px;
+    border-radius: 2rem;
+    position: relative;
+    margin: 15rem 25% 0vh 25%;
+} 
+.card-text{
+    font-size: 1.5rem;
+    font-family: 'Consolas';
+    padding: 1rem;
+}
+.card-img{
+    padding: 1rem;
+    float: left;
+    height: 35vh;
+    transition: 0.5s;
+}
+.card-img:hover{
+    height: 40vh;
+}
+
+a{
+    color: #fff; 
+    text-decoration:none;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 23px;
+}
+
+.b li{
+    position: relative;
+}
+
+.b li a{
+    display:block;
+}
+
+.b li a:hover{
+    background: var(--fourth-color);
+    color: var(--first-color);
+}
+
+.b li  ul{
+    position:absolute;
+    top: 4vh;
+    background-color: var(--third-color);
+    display: none;
+    transition: 3s;
+    
+    }
+
+.b li:hover ul, .b li.over ul{
+    display:block
+    }
+
+.b li ul li{
+    display:block;
+        }
