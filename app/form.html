@@ -1,0 +1,24 @@
+<html>
+<head>
+    
+    <link rel="icon" type="image/x-icon" href="/img/etecfav.png">
+    <title> Cadastro de Usuário </title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="bod">
+        <form method="POST" action="user.php">
+            <label>Login:</label><input type="text" name="nome" id="nome"><br>
+            <label>Senha:</label><input type="password" name="senha" id="senha"><br>
+            <label>Email:</label><input type="email" name="email" id="email"><br>
+            <label>Celular:</label><input type="number" name="celular" id="celular"><br>
+            <select name="curso" id="curso">
+                <option value="1" selected>Desenvolvimento de Sistema</option>
+                <option value="2">Administração</option>
+                <option value="3">Jogos Digitais</option>
+            </select>
+            <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+        </form>
+    </div>
+</body>
+</html>
