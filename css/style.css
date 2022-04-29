@@ -74,6 +74,8 @@ body{
 }
 
 .card-b{
+    
+    border-radius: 18px;
     align-content: center;
     background-color: #fff; 
     width: 50%;
