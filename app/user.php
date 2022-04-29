@@ -1,7 +1,7 @@
 <?php 
 include('conection.php');
 
-//pegar usuario
+/*pegar usuario
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
 
@@ -12,6 +12,7 @@ if(isset($_GET['id'])) {
 else{
     listUsers();
 }
+*/
 
 //cadastrar usuario
 if(isset($_POST['nome'])){

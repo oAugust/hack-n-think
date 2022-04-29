@@ -27,7 +27,7 @@ function newUser($nome, $email, $senha, $celular, $curso){
 		$info = array("message" => "Falha ao cadastrar usuário!");
 	}
 
-    return "<a href='../index.html'>Retornar à tela inicial</a>";
+    header('Location:../index.html');
 }
 
 //----------------------------------------------Coletar usuário pelo id---------------------------------------------------//
