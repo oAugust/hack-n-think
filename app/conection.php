@@ -27,8 +27,7 @@ function newUser($nome, $email, $senha, $celular, $curso){
 		$info = array("message" => "Falha ao cadastrar usuário!");
 	}
 
-    echo json_encode($info);
-    return json_encode($info);
+    return "<a href='../index.html'>Retornar à tela inicial</a>";
 }
 
 //----------------------------------------------Coletar usuário pelo id---------------------------------------------------//
